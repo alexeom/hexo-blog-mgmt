@@ -1,0 +1,27 @@
+menu:
+ About: /about
+ Archive: /archives
+ 
+
+
+widgets:
+ - greeting
+ - site_links
+
+rss: /atom.xml
+
+readMore: ...read more
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
+tag_generator:
+  per_page: 10
+
+
+eeee:
+ Tags: /tags
+ RSS: /atom.xml
